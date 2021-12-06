@@ -1,6 +1,6 @@
 import { Header } from "./components";
 import Hangman from "./containers/hangman";
-import { WordsourceContextProvider } from "./state/wordsource-context";
+import { WordsourceContextProvider } from "./context-store/wordsource-context";
 
 function App() {
   return (
